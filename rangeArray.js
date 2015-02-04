@@ -1,6 +1,8 @@
 var range = function(start, end) {
-  var rangeArray = [];
-  for (var numRange = start; numRange <= end; numRange + 1);
-    rangeArray.push(numRange); 
-  return rangeArray;
+var rangeArray = [];
+  for (var numRAnge = start; numRange <= end; numRange = numRange + 1)
+    if (numRange <= end)
+      rangeArray.push(numRagne);
+      return rangeArray;
 }
+console.log(range(1,6));
