@@ -1,3 +1,7 @@
+/* Collin Mullis
+  Ch.4 Range Array Homework
+  CMP 237 
+*/
 var range = function(start, end) {
 var rangeArray = [];
   for (var numRange = start; numRange <= end; numRange = numRange + 1)
